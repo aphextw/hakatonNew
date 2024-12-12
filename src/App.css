@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+* {
+  font-family: "SF Pro Display";
+  padding: 0;
+  margin: 0;
+}
+
+.bigHeader {
+  margin-top: 32px;
+  height: 52px;
+  width: 98vw;
+}
+
+.smallHeader {
+  justify-content: space-between; 
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: 92px;
+  display: flex;
+  width: 350px;
+  height: 52px;
+}
+
+.cartinka {
+  border-radius: 36px;
+  margin-left: 2.7vw;
+  height: 36.8vw;
+  width: 27.2vw;
+}
+
+.correct {
+  background-color: "green";
+}
+
+.wrong {
+  background-color: "red";
+}
+
+.search {
+  background-color: #f6f6f6;
+  border-radius: 16px;
+  border-style: none;
+  margin-left: 40vw;
+  padding-left: 1vw;
+  font-size: 18px;
+  width: 14.7vw;
+  height: 52px;
+}
+
+.whatisit {
+  background-color: #f6f7fb;
+  border-radius: 12px;
+  padding-left: 1vw;
+  padding-top: 1vw;
+  font-size: 1.6vw;
+  height: 2.8vw;
+  width: 17vw;
+}
+
+.selfImpr {
+  padding: 3rem;
+  display: flex;
+}
+
+.about {
+  padding: 3rem;
+  height: 200vh;
+}
+
+.kalendar {
+  align-items: flex-start;
+  flex-direction: column;
+  background: #F7F7F7;
+  border-radius: 12px;
+  margin-right: 32px;
+  margin-top: 40px;
+  height: 309px;
+  display: flex;
+  padding: 16px;
+  flex-grow: 0;
+  width: 315px;
+  flex: none;
+  gap: 16px;
+  order: 0;
+
+}
+
+/* .pfp {
+  background-color: "#305cde";
+  border-radius: "30px";
+  height: "150px";
+  width: "150px";
+} */

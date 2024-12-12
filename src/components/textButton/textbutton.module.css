@@ -1,0 +1,26 @@
+.button {
+  transition: all 0.3s;
+  font-weight: lighter;
+  border-radius: 16px;
+  font-weight: bold;
+  color: #757575;
+  margin-top: 2rem;
+  font-size: 16px;
+  cursor: pointer;
+  height: 52px;
+  border: none;
+}
+
+.button:hover {
+  color: #000;
+}
+
+.button.active {
+  color: #000;
+}
+
+.button:disabled {
+  background-color: #0c73fe;
+  cursor: not-allowed;
+  color: #85b9ff;
+}
